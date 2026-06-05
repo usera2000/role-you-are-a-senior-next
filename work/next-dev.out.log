@@ -1,0 +1,47 @@
+
+> choi-aeri-newsroom@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.14:3000
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1639ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1516ms (823 modules)
+ GET / 200 in 6103ms
+ GET / 200 in 1349ms
+ GET / 200 in 645ms
+ ✓ Compiled in 225ms (244 modules)
+ GET / 200 in 325ms
+ ✓ Compiled in 867ms (846 modules)
+ GET / 200 in 534ms
+ GET / 200 in 443ms
+ ✓ Compiled in 334ms (860 modules)
+ GET / 200 in 265ms
+ GET / 500 in 450ms
+ ✓ Compiled in 225ms (860 modules)
+ GET / 500 in 580ms
+ ✓ Compiled in 134ms (280 modules)
+ GET / 500 in 259ms
+ ✓ Compiled in 179ms (846 modules)
+ ✓ Compiled in 441ms (862 modules)
+ GET / 500 in 661ms
+ ✓ Compiled in 732ms (871 modules)
+ GET / 200 in 2677ms
+ ✓ Compiled in 257ms (871 modules)
+ GET / 200 in 917ms
+ ✓ Compiled in 242ms (871 modules)
+ GET / 200 in 369ms
+ GET / 200 in 578ms
+ ○ Compiling /prep ...
+ ✓ Compiled /prep in 611ms (876 modules)
+ GET /prep 200 in 1428ms
+ ✓ Compiled /briefing in 231ms (881 modules)
+ GET /briefing 200 in 906ms
+ GET / 200 in 739ms
+ GET / 200 in 646ms
+ GET / 200 in 969ms

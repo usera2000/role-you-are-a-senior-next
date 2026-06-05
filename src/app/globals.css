@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1e293b;
+  background: #f7fbff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(96, 165, 250, 0.14) 0%, rgba(247, 251, 255, 0) 320px),
+    #f7fbff;
+  color: #1e293b;
+  font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.broadcast-mode {
+  font-size: 112%;
+}
+
+.broadcast-mode .broadcast-hide {
+  display: none;
+}
+
+.broadcast-mode .news-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.broadcast-mode .news-card {
+  min-height: 330px;
+}
+
+.broadcast-mode .dashboard-shell {
+  max-width: 1840px;
+}
+
+.newsroom-mode .broadcast-hide,
+.newsroom-mode aside {
+  display: none;
+}
+
+.newsroom-mode {
+  max-width: 1860px;
+  padding-top: 20px;
+}

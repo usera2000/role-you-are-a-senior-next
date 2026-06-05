@@ -1,0 +1,48 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at WeatherCard (src\components\WeatherCard.tsx:32:19)
+  30 |       ) : (
+  31 |         <div className="grid gap-4 md:grid-cols-5">
+> 32 |           {cities.map((city) => (
+     |                   ^
+  33 |             <div key={city.name} className="rounded-md border border-border bg-blue-50/60 p-5 text-center">
+  34 |               <p className="text-2xl font-black text-text">{city.name}</p>
+  35 |               <p className="mt-2 text-3xl font-black text-accent"> {
+  digest: '1890463284'
+}
+ ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at WeatherCard (src\components\WeatherCard.tsx:32:19)
+  30 |       ) : (
+  31 |         <div className="grid gap-4 md:grid-cols-5">
+> 32 |           {cities.map((city) => (
+     |                   ^
+  33 |             <div key={city.name} className="rounded-md border border-border bg-blue-50/60 p-5 text-center">
+  34 |               <p className="text-2xl font-black text-text">{city.name}</p>
+  35 |               <p className="mt-2 text-3xl font-black text-accent"> {
+  digest: '1890463284'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ TypeError: Cannot read properties of undefined (reading 'map')
+    at WeatherCard (src\components\WeatherCard.tsx:32:19)
+  30 |       ) : (
+  31 |         <div className="grid gap-4 md:grid-cols-5">
+> 32 |           {cities.map((city) => (
+     |                   ^
+  33 |             <div key={city.name} className="rounded-md border border-border bg-blue-50/60 p-5 text-center">
+  34 |               <p className="text-2xl font-black text-text">{city.name}</p>
+  35 |               <p className="mt-2 text-3xl font-black text-accent"> {
+  digest: '1890463284'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ReferenceError: Cannot access 'state' before initialization
+    at BroadcastWorkspace (src\components\BroadcastWorkspace.tsx:64:16)
+  62 |         talkingPoint: state.regenerated[article.id]?.talkingPoint || article.talkingPoint,
+  63 |       }));
+> 64 |   }, [grouped, state.hiddenArticleIds, state.regenerated]);
+     |                ^
+  65 |   const [mode, setMode] = useState<WorkspaceMode>("dashboard");
+  66 |   const [state, setState] = useState<BroadcastState>({
+  67 |     mainArticleId: null, {
+  digest: '2549080674'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
